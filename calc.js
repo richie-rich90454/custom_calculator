@@ -1,7 +1,4 @@
-addBtn=document.getElementById("add");
-addBtn.addEventListener("click",function(){
+const equal=document.getElementById("equa");
+equal.addEventListener("click",function(){
     
-})
-function addNum(){
-    
-}
+});
