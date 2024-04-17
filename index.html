@@ -10,45 +10,59 @@
       input[type="text"],input[type="button"]{
         font-family: tahoma;
         background-color: #FFF;
+        border: 1px solid #000;
+        border-radius: 0.1rem;
+      }
+      #calc-main{
+        font-family: tahoma;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #000;
       }
     </style>
   </head>
   <body>
-    <div id="monitor"></div>
-    <div>
-      <input type="button" value="ABS">
-      <input type="button" value="x&sup3">
-      <input type="button" value="x&sup-1">
-      <input type="button" value="log">
-      <input type="button" value="fraction">
-      <input type="button" value="&Sqrt;">
-      <input type="button" value="x&sup3">
-      <input type="button" value="x^">
-      <input type="button" value="Ln">
-    </div>
-    <div>
-        <input type="button" value="+" id="add">
-        <input type="button" value="-" id="subt">
-        <input type="button" value="*" id="mult">
-        <input type="button" value="/" id="divd">
-        <input type="button" value="=" id="equa">
-    </div>
-    <div>
+    <div id="calc-main">
+      <div id="monitor"></div>
       <div>
-          <input type="button" value="7" id="num7">
-          <input type="button" value="8" id="num8">
-          <input type="button" value="9" id="num9">
+        <input type="button" value="ABS">
+        <input type="button" value="x&sup3">
+        <input type="button" value="x&sup-1">
+        <input type="button" value="log">
+        <input type="button" value="fraction">
+        <input type="button" value="&Sqrt;">
+        <input type="button" value="x&sup3">
+        <input type="button" value="x^">
+        <input type="button" value="Ln">
       </div>
       <div>
-        <input type="button" value="4" id="num4">
-        <input type="button" value="5" id="num5">
-        <input type="button" value="6" id="num6">
+          <input type="button" value="+" id="add">
+          <input type="button" value="-" id="subt">
+          <input type="button" value="*" id="mult">
+          <input type="button" value="/" id="divd">
+          <input type="button" value="=" id="equa">
       </div>
       <div>
-        <input type="button" value="0" id="num0">
-        <input type="button" value="1" id="num1">
-        <input type="button" value="2" id="num2">
-        <input type="button" value="3" id="num3">
+        <div>
+            <input type="button" value="7" id="num7">
+            <input type="button" value="8" id="num8">
+            <input type="button" value="9" id="num9">
+        </div>
+        <div>
+          <input type="button" value="4" id="num4">
+          <input type="button" value="5" id="num5">
+          <input type="button" value="6" id="num6">
+        </div>
+        <div>
+          <input type="button" value="1" id="num1">
+          <input type="button" value="2" id="num2">
+          <input type="button" value="3" id="num3">
+        </div>
+        <div>
+          <input type="button" value="0" id="num0">
+          <input type="button" value="Ans" id="ans">
+          <input type="button" value="π">
+        </div>
       </div>
     </div>
   </body>
